@@ -57,11 +57,11 @@
       <div class="col-sm-3">
         <div class="list-group">
           <h3>List category</h3>
-            <?php
-              include "presentation/categoryP.php";
-              $cp = new CategoryP();
-              $cp-> ShowAllCategory();
-            ?>
+          <?php
+          include "presentation/categoryP.php";
+          $cp = new CategoryP();
+          $cp->ShowAllCategory();
+          ?>
         </div>
       </div>
       <div class="col-sm-9">
@@ -71,7 +71,8 @@
           <?php
           include "presentation/productP.php";
           $pp = new ProductP();
-          $pp->ShowProductsInCategory();
+          // $pp->ShowProductsInCategory();
+          $pp->ShowFeaturedProduct();
           ?>
         </div>
       </div>

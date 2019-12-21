@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80ab216f-b834-445a-a702-3481b7a04d76" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="80ab216f-b834-445a-a702-3481b7a04d76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/inventoryB.php" beforeDir="false" afterPath="$PROJECT_DIR$/business/inventoryB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/productB.php" beforeDir="false" afterPath="$PROJECT_DIR$/business/productB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/categoryP.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/categoryP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/productP.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/productP.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +21,36 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SdrLmAGzvWsmXcHhP9Bj3JphuG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -46,18 +70,35 @@
       <workItem from="1571992487372" duration="4354000" />
       <workItem from="1573022563191" duration="152000" />
       <workItem from="1573022777005" duration="4810000" />
+      <workItem from="1576689269235" duration="723000" />
+      <workItem from="1576892954047" duration="3361000" />
+      <workItem from="1576915208198" duration="1268000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="186" key="#SQL_Dialects" timestamp="1576893232423">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1032" y="186" key="#SQL_Dialects/0.0.1920.1050@0.0.1920.1050" timestamp="1576893232423" />
+    <state x="661" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1576915210384">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="661" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576915210384" />
+    <state x="1149" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1576897331298">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1149" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1576897331298" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/business/inventoryB.php</url>
-          <line>79</line>
+          <line>81</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
