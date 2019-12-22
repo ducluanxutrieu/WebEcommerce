@@ -72,7 +72,7 @@
           include "presentation/productP.php";
           $pp = new ProductP();
           // $pp->ShowProductsInCategory();
-          $pp->ShowFeaturedProduct();
+          $pp->ShowProductsByUser();
           ?>
         </div>
       </div>

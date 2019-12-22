@@ -1,9 +1,8 @@
-<?php include "../data/database.php" ?>
 <?php
 
 $test = new InventoryB();
-$from = "2019-10-01";
-$to = "2019-10-10";
+$from = "2019-09-30";
+$to = "2019-10-15";
 
 //$test->GetRelevantInventoryID(1, $to);
 //$test->GetCorrectSoldItems(1, $from, $to);
@@ -19,7 +18,7 @@ $to = "2019-10-10";
 
 // $test -> GetRelevantProductID($from, $to);
 // echo $test -> GetLatestPerfomance(2);
-// $test -> GetPoorPerfomance($from, $to);
+$test->GetPoorPerformance($from, $to);
 
 class InventoryB
 {
@@ -29,6 +28,7 @@ class InventoryB
         $product_list = $this->GetRelevantProductID($from, $to);
 
         //2. Update return array
+        $plist = array();
         while ($row = mysqli_fetch_array($product_list)) {
             $product_id = $row['product_id'];
 
@@ -36,7 +36,13 @@ class InventoryB
             $performance = $this->GetLatestPerformance($product_id);
             $plist["{$product_id}"] = "{$performance}";
         }
+
+//        foreach ($plist as $x => $x_value){
+//            echo "Key = " . $x . ", Value = " . $x_value;
+//            echo "<br>";
+//        }
         asort($plist);
+//        echo $plist;
         return $plist;
     }
 

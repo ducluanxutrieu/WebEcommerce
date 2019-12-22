@@ -5,9 +5,7 @@ class ProductB
     public function GetProductByID($product_id){
         $sql = "SELECT * FROM Product WHERE product_id = {$product_id}";
         $db = new Database();
-        $result = $db->select($sql);
-
-        return $result;
+        return $db->select($sql);
     }
 
     public function GetAllProductFromCategory($cat_id)
