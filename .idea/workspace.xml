@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80ab216f-b834-445a-a702-3481b7a04d76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/business/productAnalysisB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/inventoryB.php" beforeDir="false" afterPath="$PROJECT_DIR$/business/inventoryB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/productB.php" beforeDir="false" afterPath="$PROJECT_DIR$/business/productB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/productAnalysisB.php" beforeDir="false" afterPath="$PROJECT_DIR$/business/productAnalysisB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/categoryP.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/categoryP.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/productP.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/productP.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,8 @@
       <workItem from="1576689269235" duration="723000" />
       <workItem from="1576892954047" duration="3361000" />
       <workItem from="1576915208198" duration="6824000" />
-      <workItem from="1576983145310" duration="4762000" />
+      <workItem from="1576983145310" duration="5386000" />
+      <workItem from="1577230114083" duration="5738000" />
     </task>
     <servers />
   </component>
@@ -87,14 +87,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1032" y="186" key="#SQL_Dialects/0.0.1920.1050@0.0.1920.1050" timestamp="1576893232423" />
-    <state x="988" y="343" key="NewPhpFileDialog" timestamp="1576986951583">
+    <state x="988" y="343" key="NewPhpFileDialog" timestamp="1577230271240">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="988" y="343" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1576986951583" />
-    <state x="529" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1576983145851">
+    <state x="988" y="343" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1577230271240" />
+    <state x="529" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1577230114724">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="529" y="276" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1576983145851" />
+    <state x="529" y="276" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1577230114724" />
     <state x="661" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576915210384" />
     <state x="1149" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1576939126745">
       <screen x="0" y="0" width="1920" height="1050" />
