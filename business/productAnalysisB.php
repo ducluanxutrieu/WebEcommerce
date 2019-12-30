@@ -9,8 +9,9 @@ $test = new ProductAnalysisB();
 //$test->UpdateViewOfProduct(1);
 //$test->GetView(2, $from, $to);
 //echo $test->BuildSearchString("Iphone x 64 GB");
-$test->GetRelevantLinks($product_name);
+$return_list =  $test->GetRelevantLinks($product_name);
 $test->FindPrice("https://fptshop.com.vn/dien-thoai/iphone-x/338058/tra-gop");
+$test->BuildUpDataset($product_name, $return_list);
 class ProductAnalysisB
 {
     private $high_view = 2;
@@ -40,13 +41,32 @@ class ProductAnalysisB
             }
         }
 
+        return $return_list;
+    }
+
+    public function BuildUpDataset($product_name, $return_list){
+        $db = new Database();
         foreach ($return_list as $x => $x_value){
-            echo $x . '<br>';
-            echo $x_value . '<br>';
-            echo '<br>';
+            $LINK = "'" . $x_value . "'";
+            $NAME = "'" . $product_name . "'";
+            //1. Get link is not in dataset
+            $test = $this->CheckLinkInDataset($LINK);
+
+            //2. Insert this link
+            if ($test == 0){
+                $sql = "INSERT INTO `dataset` (`link_id`, `product_name`, `link_name`) VALUES (NULL, {$NAME}, {$LINK})";
+                $db -> insert($sql);
+            }
         }
     }
 
+    public function CheckLinkInDataset($link){
+        $sql = "SELECT COUNT(*) as NUMBER FROM dataset WHERE `link_name`={$link}";
+        $db = new Database();
+        $result = $db->select($sql);
+        $row = mysqli_fetch_array($result);
+        return $row['NUMBER'];
+    }
 
     public function FindPrice($link){
         $html = file_get_html($link);
